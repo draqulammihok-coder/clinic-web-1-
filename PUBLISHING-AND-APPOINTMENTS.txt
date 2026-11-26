@@ -1,0 +1,23 @@
+AURELIA DENTAL STUDIO — PUBLISHING NOTES
+
+PUBLISH ALL FILES
+1. Extract this ZIP.
+2. Upload the complete 01-dental-clinic folder contents to your hosting document root.
+3. Keep the assets folder and all CSS/JS files in their original locations.
+4. Do not upload only index.html. The website contains 32 HTML pages.
+5. Open index.html (or your hosted domain) and use Treatments to browse all 24 treatment pages.
+6. Every page includes the shared site navigation and page directory.
+
+APPOINTMENT FORM
+- Every treatment page's appointment button opens contact.html with its treatment preselected.
+- The form includes name, email, phone, treatment, appointment type, preferred date, preferred time and optional notes.
+- Form requests are saved in localStorage on the visitor's device for this demo.
+- This does NOT send email or confirm an appointment. Connect a secure backend / booking service before accepting real patient bookings.
+- Dentist names and contact details in the demo directory are sample data.
+
+The treatment information is educational and should be reviewed by a licensed dental professional before publication.
+
+HERO DESIGN
+- The homepage hero uses the local optimized assets/aurelia-hero.webp image.
+- Decorative proof badges and the scroll/progress strip have been removed.
+- Keep the assets folder when publishing.
